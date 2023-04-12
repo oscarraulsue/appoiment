@@ -6,6 +6,7 @@ import { SWRConfig } from "swr";
 import { lightTheme } from "../themes";
 
 export default function App({ Component, pageProps }: AppProps) {
+  
   return (
     <SWRConfig
       value={{
